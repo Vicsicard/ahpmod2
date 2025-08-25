@@ -1,0 +1,17 @@
+{
+  "name": "ahpmod2",
+  "version": "1.0.0",
+  "description": "AHP Mod 2.0 Presentation - Addressing Key Concerns",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "serve ."
+  },
+  "keywords": ["presentation", "ahp", "ai-search", "seo"],
+  "author": "AHP Mod Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

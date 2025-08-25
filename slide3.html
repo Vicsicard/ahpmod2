@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concern 3: Proof of ROI</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .slide-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .slide-header {
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #8b5cf6; /* AHP Mod deep purple */
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .quote {
+            font-style: italic;
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #e2e2e2;
+        }
+        .content-container {
+            display: flex;
+            flex: 1;
+            gap: 40px;
+        }
+        .text-content {
+            flex: 1;
+        }
+        .image-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-content img {
+            max-width: 100%;
+            max-height: 500px;
+            border-radius: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 30px;
+        }
+        li:before {
+            content: "•";
+            color: #10b981; /* AHP Mod bright green */
+            font-size: 24px;
+            position: absolute;
+            left: 0;
+        }
+        li ul {
+            margin-top: 15px;
+        }
+        li li {
+            margin-bottom: 10px;
+        }
+        li li:before {
+            content: "◦";
+            font-size: 20px;
+        }
+        .highlight {
+            color: #10b981; /* AHP Mod bright green */
+            font-weight: bold;
+        }
+        .footer {
+            font-size: 12px;
+            color: #888888;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .nav-button {
+            background-color: #8b5cf6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-button:hover {
+            background-color: #7c4ddb;
+        }
+        .nav-button.disabled {
+            background-color: #555555;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1>Concern 3: Proof of ROI</h1>
+            <div class="quote">"Is the $99/month subscription justified?"</div>
+        </div>
+        
+        <div class="content-container">
+            <div class="text-content">
+                <ul>
+                    <li>For only <span class="highlight">$99/month</span>, your site sees:
+                        <ul>
+                            <li><span class="highlight">4–23× higher conversion rates</span> <em>(A/B testing, 2024).</em></li>
+                            <li><span class="highlight">2–4× more sales</span> <em>(client pilot data, 2024).</em></li>
+                            <li><span class="highlight">20% higher order value</span> <em>(E-commerce benchmarks, 2024).</em></li>
+                        </ul>
+                    </li>
+                    <li>Just <span class="highlight">one new customer covers the cost — everything else is profit.</span></li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="images%20for%20slide%203.jpeg" alt="AI funnel">
+            </div>
+        </div>
+        
+        <div class="footer">
+            (Sources: SimilarWeb 2024, SparkToro 2024, Perplexity Labs testing 2024, McKinsey Tech Adoption 2024, Client pilot data 2024)
+        </div>
+        
+        <div class="navigation">
+            <a class="nav-button" href="slide2.html">Previous</a>
+            <a class="nav-button" href="slide4.html">Next</a>
+        </div>
+    </div>
+</body>
+</html>
